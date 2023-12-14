@@ -53,11 +53,23 @@ body {
 .S1img1 {
   margin-left: -220px;
 }
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .S1img1 {
     margin-left: -280px;
   }
+  .borderStyle{
+    border-bottom: 2px solid #233167;
+    height: 250px;
+  }
 }
+@media (min-width: 768px)  {
+  .borderStyle{
+    border-bottom: 0px solid #233167;
+    border-right: 2px solid #233167;
+    height: 250px;
+  }
+}
+
 .secondhead {
   color: #233167;
 }
@@ -109,22 +121,26 @@ body {
    margin-left: -100px;
    text-align: center;
   }
-  .sidetxt {
-    position: relative;
-    margin-right: -200px;
+
+     .third{
+      margin-top: 40px;
      }
- 
+ .custom-8{
+  margin-left: 100px;
+ }
+
+
 }
 
 .sidetxt {
   position: absolute;
-  background-color: #233167;
+   background-color: #233167;
   color: white;
   transform: rotate(-90deg);
   width: 200px;
-  margin-left: 53px;
+  margin-right:-90px;
   padding: 10px;
-  margin-top: -70px;
+  margin-top: -10px;
 }
 .img5 {
   margin-left: 50px;
@@ -155,6 +171,7 @@ body {
   .card {
     margin-top: 20px;
   }
+ 
 }
 .custom-2 {
   width: 20rem;
@@ -300,6 +317,13 @@ body {
   padding: 10px;
   margin-top: -155px;
 }
+@media (max-width: 600px) {
+  .Verticaltxt {
+    margin-left: 54px;
+    margin-top: -364px;
+  }
+ 
+  }
 /* Footer End */
 /* Conclusion */
 .container-5 {
@@ -314,6 +338,7 @@ body {
 }
 @media (max-width: 600px) {
 .btn3  {
-  margin-right: 300px;
+  margin-right: 330px;
+  margin-top: 10px;
 }
 }
